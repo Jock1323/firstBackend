@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Kombat",
+        "author": "1",
+        "thumbnail": "http://localhost:8080/user/videos/1667807844450-685947470573195.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Raiden",
+        "author": "1",
+        "thumbnail": "http://localhost:8080/user/videos/1667809962634-3000559421143926.png"
+    },
+    {
+        "id": 3,
+        "title": "Scorpion",
+        "author": "2",
+        "thumbnail": "http://localhost:8080/user/videos/1667812855800-856618053515358.jpg"
+    }
+]

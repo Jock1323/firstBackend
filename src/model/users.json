@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "username": "Mirsidiq",
+        "password": "123",
+        "avatar": "http://localhost:8080/1667807655561-344821544573195.jpg"
+    },
+    {
+        "id": 2,
+        "username": "Suhrob",
+        "password": "1323",
+        "avatar": "http://localhost:8080/1667811326058-903281714320008.jpg"
+    }
+]
