@@ -1,20 +1,3 @@
 [
-    {
-        "id": 1,
-        "username": "Mirsidiq",
-        "password": "6c1d80ff02dddaee1f3d0c0301811cb1d802cecd81c6bdf3bb4e8c9ebf5721c2",
-        "avatar": "http://localhost:8080/1667917135138-5976360271143926.png"
-    },
-    {
-        "id": 2,
-        "username": "Suhrob",
-        "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225",
-        "avatar": "http://localhost:8080/1667919607046-664492512573195.jpg"
-    },
-    {
-        "id": 3,
-        "username": "Samiyaxon",
-        "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
-        "avatar": "http://localhost:8080/1667924577505-4657039041143926.png"
-    }
+    
 ]
