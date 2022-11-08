@@ -4,6 +4,7 @@ import { HOST } from "../utils/config.js";
 import { read, write } from "../utils/fs.js";
 import {sign, verify} from "../utils/jwt.js"
 import dotenv from "dotenv"
+import sha256 from "sha256";
 dotenv.config()
 const userImage=(req,res)=>{
     res.sendFile(path.join(process.cwd(),"uploads",req.params.name))
@@ -25,7 +26,7 @@ const register=(req,res,next)=>{
         allUsers.push({
             id:allUsers.at(-1)?.id+1 || 1,
             username,
-            password,
+            password:sha256(password),
             avatar:`${HOST}${filename}`
         })
         write("users.json",allUsers)
@@ -42,18 +43,18 @@ const register=(req,res,next)=>{
         })
         }
         else{
-            throw new Error
+            throw new Error("path not found")
         }
     } catch (error) {
-        next(new customErrorClass("path not found",500))
+        next(new customErrorClass(error.message,500))
     }
 }
 const login=(req,res,next)=>{
     try {
-        const {username,password}=req.body
+        const {username,password}=req.filteredValue
         const allUsers=read("users.json")
         if(allUsers){
-            const foundedUser=allUsers.find(user=>user.username==username && user.password==password)
+            const foundedUser=allUsers.find(user=>user.username==username && user.password==sha256(password))
         if(!foundedUser){
             throw new Error("password or username is wrong")
         }
@@ -74,7 +75,7 @@ const login=(req,res,next)=>{
 }
 const users=(_,res,next)=>{
    try {
-    const allUsers=read("users.json")
+    const allUsers=read("users.json").filter(user=>delete user.password)
     if(!allUsers) throw new Error()
     res.status(200).json({
         message:"all users",

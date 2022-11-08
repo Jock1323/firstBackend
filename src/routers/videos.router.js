@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { allVideos, postVideo,videoShow } from "../controller/videos.controller.js";
+import { allVideos, getAdminVideos, postVideo,videoShow } from "../controller/videos.controller.js";
 import dotenv from "dotenv"
 import multer from "multer"
 dotenv.config()
@@ -17,5 +17,6 @@ const storage = multer.diskStorage({
   const upload = multer({ storage: storage })
 router.get("/",allVideos)
 router.get("/user/videos/:name",upload.single("thumbnail"),videoShow)
+router.get("/user/private/videos",getAdminVideos)
 router.post("/user/videos",upload.single("thumbnail"),postVideo)
 export default router

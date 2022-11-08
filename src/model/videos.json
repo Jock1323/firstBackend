@@ -1,20 +1,65 @@
 [
     {
         "id": 1,
-        "title": "Kombat",
+        "title": "you never win",
         "author": "1",
-        "thumbnail": "http://localhost:8080/user/videos/1667807844450-685947470573195.jpg"
+        "thumbnail": "http://localhost:8080/user/videos/1667918966630-286375368320008.jpg",
+        "size": "0.219306",
+        "date": "2022/11/8",
+        "time": "19:49:26"
     },
     {
         "id": 2,
-        "title": "Raiden",
-        "author": "1",
-        "thumbnail": "http://localhost:8080/user/videos/1667809962634-3000559421143926.png"
+        "title": "Scorpion",
+        "author": "2",
+        "thumbnail": "http://localhost:8080/user/videos/1667919728048-151442082515358.jpg",
+        "size": "6.134607",
+        "date": "2022/11/8",
+        "time": "20:02:08"
     },
     {
         "id": 3,
-        "title": "Scorpion",
+        "title": "Samish",
+        "author": "3",
+        "thumbnail": "http://localhost:8080/user/videos/1667925245977-264552956319998.jpg",
+        "size": "0.945665",
+        "date": "2022/11/8",
+        "time": "21:34:06"
+    },
+    {
+        "id": 4,
+        "title": "Lord Raiden",
+        "author": "3",
+        "thumbnail": "http://localhost:8080/user/videos/1667927548255-676806204702086.jpg",
+        "size": "0.306263",
+        "date": "2022/11/8",
+        "time": "22:12:28"
+    },
+    {
+        "id": 5,
+        "title": "Red Raiden",
         "author": "2",
-        "thumbnail": "http://localhost:8080/user/videos/1667812855800-856618053515358.jpg"
+        "thumbnail": "http://localhost:8080/user/videos/1667928821095-1217721251143926.png",
+        "size": "1.967981",
+        "date": "2022/11/8",
+        "time": "22:33:41"
+    },
+    {
+        "id": 6,
+        "title": "Mirsidiq",
+        "author": "2",
+        "thumbnail": "http://localhost:8080/user/videos/1667929054425-358377814320008.jpg",
+        "size": "0.219306",
+        "date": "2022/11/8",
+        "time": "22:37:34"
+    },
+    {
+        "id": 7,
+        "title": "Power",
+        "author": "2",
+        "thumbnail": "http://localhost:8080/user/videos/1667929122337-885534256702086.jpg",
+        "size": "0.306263",
+        "date": "2022/11/8",
+        "time": "22:38:42"
     }
 ]
