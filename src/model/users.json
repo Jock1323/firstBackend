@@ -1,14 +1,2 @@
 [
-    {
-        "id": 1,
-        "username": "Mirsidiq",
-        "password": "b6cf890e3698dc887e60d8f45e93b7277f75d43e7735e4423ae98ee6dea23c0c",
-        "avatar": "http://localhost:8080/1667981334291-460431867320008.jpg"
-    },
-    {
-        "id": 2,
-        "username": "Suhrob",
-        "password": "ddc6e3aecc542fac91c30fba931deda15e4ef4cbe3dadddb50b482693735876f",
-        "avatar": "http://localhost:8080/1667981770669-33573493181010.jpg"
-    }
 ]
