@@ -1,5 +1,5 @@
 const PORT=process.env.PORT || 8080
-const HOST="https://my-project-clone.herokuapp.com/"
+const HOST="http://localhost:8080/"
 export {
     HOST,
     PORT
