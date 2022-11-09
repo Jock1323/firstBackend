@@ -7,7 +7,6 @@ import { PORT } from "./utils/config.js";
 
 const app=express();
 app.use(cors())
-// app.use(express.urlencoded())
 app.use(express.json())
 app.use(userRouter)
 app.use(videoRouter)
